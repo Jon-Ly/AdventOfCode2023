@@ -20,6 +20,7 @@ pub fn part2() {
     let seed_values: Vec<&str> = seeds.split(" ").collect();
 
     // NEEDS A LOT OF OPTIMIZING, It's gonna take 1.4 days to finish execution on my machine.
+    // Most likely gives the correct answer :)
     
     for i in 0..seeds.split(" ").count() {
       if i % 2 == 1 {
